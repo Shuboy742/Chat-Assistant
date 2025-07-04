@@ -21,13 +21,19 @@ Place your promptui.py file in a folder.
     source venv/bin/activate
 
 3. Install Required Packages
+
 pip install streamlit langchain-huggingface python-dotenv
+
 pip install -r requirements.txt
 
 4. Set Your Hugging Face API Token
+
 Go to https://huggingface.co/settings/tokens and copy your token.
+
 Create a .env file in your project folder with this line:
+
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
 
 5. Run the App
+
 Open the URL shown in your terminal (usually http://localhost:8501).
