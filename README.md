@@ -9,11 +9,15 @@ Utilizes state-of-the-art Hugging Face language models via LangChain
 Easily customizable for different models or tasks
 
 Setup Instructions
-1. Clone or Download the Project
+
+1. Clone or Download the Project.
+
 Place your promptui.py file in a folder.
 
 2. Create and Activate a Virtual Environment (Recommended)
+
 python3 -m venv venv
+
 source venv/bin/activate
 
 3. Install Required Packages
